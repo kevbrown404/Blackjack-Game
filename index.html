@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>   
+    <div class="titles">
+    <h2>Dealer: <span id="dealerTotal"></span></h2>
+        <div id="dealer-cards"></div>  
+    <h2>You: <span id="yourTotal"></span></h2>
+        </div>
+<main>
+    
+    <div class="dealer-cards"></div>
+   
+    <div class="cards"></div>
+    <div class="player-cards"></div>
+    <div class="butt">
+    <button class="hit-button">Hit!</button>
+    <button class="stay-button">Stay</button>
+    </div>
+   <h3>Rules:</h3>
+        <ul>You win if..</ul>
+        <li>Draw a hand value that is higher than the dealer’s hand value.</li>
+        <li>The dealer draws a hand value that goes over 21.</li>
+        <li>By drawing a hand value of 21 on your first two cards, when the dealer does not.</li>
+        <ul>You lose if..</ul>
+        <li>Your hand value exceeds 21.</li>
+        <li>The dealers hand has a greater value than yours at the end of the round.</li>  
+</main>
+ <div class="message">
+        
+        <button class="try-again">Try Again?</button>
+        
+    </div>
+     <div class="popup">
+        <button type="Start" class="btn" onclick="closePopup()">Start Game</button>
+        <h3>Rules:</h3>
+        <li>dont bust</li>
+        <li>21 wins</li>
+        <li>fake</li>
+        <li>haha</li>      
+    </div>
+
+    
+    <div class="cards"></div>
+
+
+
+<p id="results"></p>
+</body>
+</html>
